@@ -14,7 +14,7 @@
     }
 ```
 
--Create script or component from **Behaviour class
+- Create script or component from **Behaviour class
 ```typescript
     class Move extends Behaviour{//GameObject scripts extends Behaviour class
         start=()=>{
@@ -29,8 +29,8 @@
         // or initialise outside constructor
     }
 ```
--for Input look at **Input class
--start the game
+- for Input look at **Input class
+- start the game
     a. Create a scene
 ```typescript
     let scene1=new Scene()
@@ -50,6 +50,12 @@
             ]
         }
     ]
+    
+    //if we use any image assets, audio assets the specify them
+    scene1.AssetNeeded={
+        {name:'my image',//this name can be used in script to use this asset
+        url:'myimage.jpg'}'
+    }
 
 ```
     b. setup the Game
