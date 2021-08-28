@@ -59,7 +59,7 @@
         }
     ]
     
-    //if we use any image assets, audio assets the specify them
+    //if we use any image assets, audio assets then specify them
     scene1.AssetNeeded={
         {name:'my image',//this name can be used in script to use this asset
         url:'myimage.jpg'}'
