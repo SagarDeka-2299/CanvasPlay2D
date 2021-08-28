@@ -3,6 +3,15 @@
 ## start a basic game
 - Create child class of GameObject and add Components
 ```typescript
+    import {
+        GameObject,
+        Behaviour,
+        Input,
+        Game,
+        Vec2,
+        Scene,
+        Canvas2d
+    } from 'canvasplay2d'
     class player extends GameObject{
         constructor(){
             super();
