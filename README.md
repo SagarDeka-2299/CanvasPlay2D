@@ -1,4 +1,4 @@
-# CanvasPlay2D is a small library to create HTML5 based game in javascipt
+# CanvasPlay2D is a small library to create HTML5 based game in javascipt (ES6)
 
 ## start a basic game
 - Create child class of GameObject and add Components
