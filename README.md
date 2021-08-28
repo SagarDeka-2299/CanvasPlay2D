@@ -1,7 +1,7 @@
 # CanvasPlay2D is a small library to create HTML5 based game in javascipt
 
 ## start a basic game
-- Create child class of **GameObject and add **Components
+- Create child class of GameObject and add Components
 ```typescript
     class player extends GameObject{
         constructor(){
@@ -14,7 +14,7 @@
     }
 ```
 
-- Create script or component from **Behaviour class
+- Create script or component from Behaviour class
 ```typescript
     class Move extends Behaviour{//GameObject scripts extends Behaviour class
         start=()=>{
@@ -29,9 +29,8 @@
         // or initialise outside constructor
     }
 ```
-- for Input look at **Input class
-- start the game
-    a. Create a scene
+- for Input look at Input class
+- Create a Scene
 ```typescript
     let scene1=new Scene()
 
@@ -58,7 +57,7 @@
     }
 
 ```
-    b. setup the Game
+- setup the Game
 ```typescript
 
     //setting (optional)
